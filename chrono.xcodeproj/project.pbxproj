@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E08282FC1522FE8900AF4A54 /* chrono.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E08282FB1522FE8900AF4A54 /* chrono.cpp */; };
+		E0D7DE9B15230C970063FD45 /* chrono.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0D7DE9A15230C970063FD45 /* chrono.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		E08282EE1522FE5100AF4A54 /* chrono */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chrono; sourceTree = BUILT_PRODUCTS_DIR; };
-		E08282FB1522FE8900AF4A54 /* chrono.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chrono.cpp; sourceTree = "<group>"; };
+		E0D7DE9A15230C970063FD45 /* chrono.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = chrono.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		E08282E31522FE5100AF4A54 = {
 			isa = PBXGroup;
 			children = (
-				E08282F11522FE5100AF4A54 /* chrono */,
+				E0D7DE9915230C970063FD45 /* Sources */,
 				E08282EF1522FE5100AF4A54 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E08282F11522FE5100AF4A54 /* chrono */ = {
+		E0D7DE9915230C970063FD45 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E08282FB1522FE8900AF4A54 /* chrono.cpp */,
+				E0D7DE9A15230C970063FD45 /* chrono.cpp */,
 			);
-			path = chrono;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,7 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08282FC1522FE8900AF4A54 /* chrono.cpp in Sources */,
+				E0D7DE9B15230C970063FD45 /* chrono.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +201,7 @@
 				E08282FA1522FE5100AF4A54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
